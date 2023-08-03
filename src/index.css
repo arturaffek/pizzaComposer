@@ -1,0 +1,220 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.App {
+  max-width: 1900px;
+  height: 100%;
+  position: absolute;
+  margin: auto;
+  left: 0;
+  right: 0
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+#pizza {
+  position: absolute;
+  top: 57%;
+  left: 19%;
+  width: 53vh;
+  height: 52vh;
+  filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.4));
+}
+.pizzaCont,.droptarget {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  transform: rotateX(53deg) ;
+}
+.pizzaBG {
+  background-repeat: no-repeat;
+  position: absolute;
+  width: 100vh;
+  height: 100vh;
+  background-size: cover;
+  background-position: bottom;
+  margin: auto;
+  left: 0;
+  right: 0;
+}
+
+.sIn div{
+  background: url('./img/tomato.svg');
+
+}
+
+
+#tomatoes {
+  top: 46%;
+  transform: rotateX(45deg);
+  left: 62%;
+  background: url('./img/tomato.svg');
+  background-size: contain !important;
+  cursor: pointer;
+  position: absolute;
+  width: 100px;
+  height: 100px;
+
+}
+#salami {
+  top: 52%;
+  transform: rotateX(45deg);
+  left: 80%;
+  background: url('./img/pepperoni.svg');
+  background-size: contain !important;
+  cursor: pointer;
+  position: absolute;
+  width: 100px;
+  height: 100px;
+
+}
+
+
+
+
+#mushrooms {
+  top: 46%;
+  left: 13%;
+  background: url('./img/mushrooms.svg');
+  background-size: contain !important;
+  cursor: pointer;
+  position: absolute;
+  width: 100px;
+  height: 100px;
+}
+
+
+.ingList {
+  position: absolute;
+  left: 50px;
+  top: 20px;
+  width: 30%;
+  height: 30vh;
+  background-color: antiquewhite;
+  padding: 20px;
+  z-index: 9
+}
+
+.pizzaCont:not(.tomatoes) svg g #_14,
+.pizzaCont:not(.tomatoes) svg g #_13,
+.pizzaCont:not(.tomatoes) svg g #_12,
+.pizzaCont:not(.mushrooms) svg g #_11,
+.pizzaCont:not(.mushrooms) svg g #_10,
+.pizzaCont svg g #_9,
+svg g #_8,
+svg g #_7,
+.pizzaCont:not(.salami) svg g #_6,
+.pizzaCont:not(.salami) svg g #_5,
+.pizzaCont:not(.salami) svg g #_4  
+{
+  fill: #fcd73d;
+  stroke: #fcd73d;
+}
+
+
+.pizzaCont:not(.tomatoes) svg g #_14-2,
+.pizzaCont:not(.tomatoes) svg g #_13-2,
+.pizzaCont:not(.tomatoes) svg g #_12-2,
+.pizzaCont:not(.mushrooms) svg g #_11-2,
+.pizzaCont:not(.mushrooms) svg g #_10-2,
+.pizzaCont svg g #_9-2,
+svg g #_8-2,
+svg g #_7-2,
+.pizzaCont:not(.salami) svg g #_6-2,
+.pizzaCont:not(.salami) svg g #_5-2,
+.pizzaCont:not(.salami) svg g #_4-2  {
+  fill: #fcd73d;
+  stroke: #fcd73d;
+}
+.pizzaCont:not(.tomatoes) svg g #_13-3,
+.pizzaCont:not(.tomatoes) svg g #_12-3,
+.pizzaCont:not(.mushrooms) svg g #_11-3,
+.pizzaCont:not(.mushrooms) svg g #_10-3,
+.pizzaCont svg g #_9-3,
+svg g #_8-3,
+svg g #_7-3,
+.pizzaCont:not(.salami) svg g #_6-3,
+.pizzaCont:not(.salami) svg g #_5-3,
+.pizzaCont:not(.salami) svg g #_4-3  {
+  fill: #fcd73d;
+  stroke: #fcd73d;
+}
+
+
+.pizzaCont:not(.tomatoes) svg g #_13-4,
+.pizzaCont:not(.tomatoes) svg g #_12-4,
+.pizzaCont:not(.mushrooms) svg g #_11-4,
+.pizzaCont:not(.mushrooms) svg g #_10-4,
+.pizzaCont svg g #_9-4,
+svg g #_8-4,
+svg g #_7-4,
+.pizzaCont:not(.salami) svg g #_6-4,
+.pizzaCont:not(.salami) svg g #_5-4,
+.pizzaCont:not(.salami) svg g #_4-4  {
+  fill: #fcd73d;
+  stroke: #fcd73d;
+}
+
+.pizzaCont:not(.tomatoes) svg g #_13-5,
+.pizzaCont:not(.tomatoes) svg g #_12-5,
+.pizzaCont:not(.mushrooms) svg g #_11-5,
+.pizzaCont:not(.mushrooms) svg g #_10-5,
+.pizzaCont svg g #_9-5,
+svg g #_8-5,
+svg g #_7-5,
+.pizzaCont:not(.salami) svg g #_6-5,
+.pizzaCont:not(.salami) svg g #_5-5,
+.pizzaCont:not(.salami) svg g #_4-5  {
+  fill: #fcd73d;
+  stroke: #fcd73d;
+}
+
+
+.pizzaCont:not(.tomatoes) svg g #_13-6,
+.pizzaCont:not(.tomatoes) svg g #_12-6,
+.pizzaCont:not(.mushrooms) svg g #_11-6,
+.pizzaCont:not(.mushrooms) svg g #_10-6,
+.pizzaCont svg g #_9-6,
+svg g #_8-6,
+svg g #_7-6,
+.pizzaCont:not(.salami) svg g #_6-6,
+.pizzaCont:not(.salami) svg g #_5-6,
+.pizzaCont:not(.salami) svg g #_4-6  {
+  fill: #fcd73d;
+  stroke: #fcd73d;
+}
+
+.pizzaCont:not(.tomatoes) svg g #_13-7,
+.pizzaCont:not(.tomatoes) svg g #_12-7,
+.pizzaCont:not(.mushrooms) svg g #_11-7,
+.pizzaCont:not(.mushrooms) svg g #_10-7,
+.pizzaCont svg g #_9-7,
+svg g #_8-7,
+svg g #_7-7,
+.pizzaCont:not(.salami) svg g #_6-7,
+.pizzaCont:not(.salami) svg g #_5-7,
+.pizzaCont:not(.salami) svg g #_4-7  {
+  fill: #fcd73d;
+  stroke: #fcd73d;
+}
+
+.pizzaCont:not(.tomatoes) svg g #_13-8,
+.pizzaCont:not(.tomatoes) svg g #_12-8,
+.pizzaCont:not(.mushrooms) svg g #_11-8,
+.pizzaCont:not(.mushrooms) svg g #_10-8,
+.pizzaCont svg g #_9-8,
+svg g #_8-8,
+svg g #_7-8,
+.pizzaCont:not(.salami) svg g #_6-8,
+.pizzaCont:not(.salami) svg g #_5-8,
+.pizzaCont:not(.salami) svg g #_4-8 {
+  fill: #fcd73d;
+  stroke: #fcd73d;
+}
